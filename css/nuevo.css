@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(44, 41, 227);
+padding-left: 70px;
+padding-right: 70px;
+font-family: 'Brush Script MT';
+font-size:1rem;
+padding-top: 0px;
+padding-bottom: 20px;
+}
+h1{
+    margin-top: 80px;
+    color: rgb(131, 202, 17);
+    text-align: center;
+}
+.form{
+    margin-top: 80px;
+    max-width: 100%;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    align-items: center;
+    gap: 80px;
+}
+.input1{
+    background-color: #db92f1dc;
+    width: 190px;
+    height: 50px;
+    color: rgb(7, 8, 0);
+    margin-top: 50px;
+}
+.input1:hover{
+    background: #30b6dfd8;
+}
+.input1::before{
+    font-family: "FontAwesome";
+    display: flex;
+    position: absolute;
+    background: #2e3133;
+}
+.input1:hover::before{
+    background: #30b6dfd8;
+}
+  .buton1{
+    color: white;
+    background-color: #b53eda;
+    width: 100px;
+    height: 50px;
+font-size: 1rem;
+cursor: pointer;
+position: relative;
+margin-bottom: 5px;
+  }
+  .buton1:hover{
+    background: #30b6dfd8;
+}
+.buton1::before{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: attr(data-icon);
+    position: absolute;
+    background: #2e3133;
+}
+.buton1:hover::before{
+    background: #30b6dfd8;
+}
